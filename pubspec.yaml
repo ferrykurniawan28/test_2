@@ -1,0 +1,30 @@
+name: test_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  curved_navigation_bar: ^1.0.3
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  flutter_map_cancellable_tile_provider: ^2.0.0
+  geolocator: ^10.1.0
+  get: ^4.6.6
+  google_sign_in: ^6.2.1
+  latlong2: ^0.9.0
+  location: ^5.0.3
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
